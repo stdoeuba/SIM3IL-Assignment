@@ -16,3 +16,8 @@ food    = vector(0, 0)
 snake   = [vector(10, 0)]
 aim     = vector(0, -10)
 
+    #Change snake direction
+def change(x, y):
+   
+    aim.x = x
+    aim.y = y
